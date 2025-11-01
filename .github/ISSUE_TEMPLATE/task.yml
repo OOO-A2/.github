@@ -5,18 +5,12 @@ labels: ["Meta: Unknown Priority"]
 projects: ["inno-swp-2025/2"]
 type: "Task"
 body:
-  - type: textarea
+  - type: markdown
     id: about-tasks
     attributes:
-      label: "<!-- About tasks -->"
-      description: |
-        Don't modify the default text in this input field.
-        Follow the instructions in the comment.
       value: |
-        <!--
         This form is for creating a specific, actionable task.
         Tasks should be small enough to be completed by one person in a short amount of time.
-        -->
     validations:
       required: false
 
